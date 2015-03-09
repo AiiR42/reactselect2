@@ -192,3 +192,5 @@ var Select2Component = React.createClass({
         );
   }
 });
+
+module.exports = Select2Component;
