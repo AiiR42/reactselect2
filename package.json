@@ -14,7 +14,7 @@
     "dependencies": {
         "react": "^0.12",
         "moment": "^2.8",
-        "reactify": "^1.0",
+        "reactify": "^1.0"
     },
     "browserify": {
         "transform": [
