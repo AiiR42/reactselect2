@@ -7,16 +7,18 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "dmwyatt",
-  "dependencies": {
-    "react": "^0.12",
-    "moment": "^2.8",
-    "tether": "^0.6",
-    "reactify": "^1.0",
-    "react-onclickoutside": "0.2.1"
-  },
-  "browserify": {
-    "transform": [
-      "reactify"
-    ]
-  }
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/AiiR42/reactselect2.git"
+    },
+    "dependencies": {
+        "react": "^0.12",
+        "moment": "^2.8",
+        "reactify": "^1.0",
+    },
+    "browserify": {
+        "transform": [
+            "reactify"
+        ]
+    }
 }

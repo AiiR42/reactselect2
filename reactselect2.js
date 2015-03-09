@@ -2,6 +2,8 @@
  * @jsx React.DOM
  */
 
+var React = require('react');
+
 var Select2Component = React.createClass({
   propTypes: {
     // Id to apply to hidden input element
