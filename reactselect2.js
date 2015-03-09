@@ -139,8 +139,7 @@ var Select2Component = React.createClass({
         val(val).
         select2(options).
         on("change", this.handleChange).
-        on("select2-open", this.handleErrorState).
-        select2("enable", this.props.enabled);
+        on("select2-open", this.handleErrorState);
     this.setPlaceholderTo($node, this.props.placeholder);
   },
 
