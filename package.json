@@ -6,5 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "dmwyatt"
+    "author": "dmwyatt",
+    "dependencies": {
+        "react": "0.12.2"
+    }
 }
