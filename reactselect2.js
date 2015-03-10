@@ -3,6 +3,7 @@
  */
 
 var React = require('react');
+var $ = require('jquery');
 
 var Select2Component = React.createClass({
   propTypes: {
