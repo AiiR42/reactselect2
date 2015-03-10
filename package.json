@@ -20,7 +20,7 @@
     },
     "browserify": {
         "transform": [
-            "reactify"
+            "reactify", "deamdify"
         ]
     }
 }
