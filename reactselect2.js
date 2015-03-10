@@ -4,7 +4,7 @@
 
 var React = require('react');
 var $ = require('jquery');
-global.jQuery = require("jquery")
+global.jQuery = require("jquery");
 require('select2');
 
 var Select2Component = React.createClass({
